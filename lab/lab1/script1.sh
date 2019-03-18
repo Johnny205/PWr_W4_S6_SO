@@ -1,9 +1,9 @@
 #!/bin/bash
 rm *.old -f
-for nazwa in *
+for fileName in *
 do
-        if [ -w $nazwa ]
+        if [ -w $fileName ]
         then
-                mv $nazwa $nazwa.old
+                mv $fileName $fileName.old
         fi
 done
