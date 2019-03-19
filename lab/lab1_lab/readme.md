@@ -16,3 +16,6 @@ Przesuwanie wszystkich plików z ustawionym prawem odczytu z jednego katalogu do
 
 # Zadanie 4
 Wyswietlenie nazw oraz policzenie wszystkich plików w zadanym katalogu (parametr wywołania skryptu), do których ustawione jest prawo dostępu do wykonania (execute).
+
+
+## Mark: 5.0
