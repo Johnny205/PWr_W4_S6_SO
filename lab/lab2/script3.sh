@@ -9,7 +9,6 @@ fi
 curentdirectory=`pwd`
 target_directory=$1
 source_directory=$2
-
 for file in * 
 do
     echo "$file"

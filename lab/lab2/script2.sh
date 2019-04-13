@@ -1,3 +1,3 @@
 #!/bin/bash
 
-touch asd123
+touch $(readlink -f $0)/asd123
