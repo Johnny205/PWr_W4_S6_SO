@@ -46,6 +46,33 @@ Napisać następujące skrypty w AWK:
 2. Skrypt wyswietlajacy zawartosc pliku, ale tylko linie 5-10
 3. Skrypt zamieniajacy male litery na duze w liniach zawierajacych cyfry
 
+## Zadanie dodatkowe (grep)
+
+Napisać skrypt który przyjmuje ścieżkę do katalogu jako parametr oraz bazując na wszystkich plikach w nim się znajdujących (rekursywnie), wyświetla statystykę pokazującą ilości słów występujących w plikach. Słowo składa się przynajmniej jednego znaku `a-z`. (`grep -hoE`, `sort`, `uniq`). Orientacyjne wyjście:
+```
+   1170 const
+   1084 x
+   1002 int
+    989 the
+    915 t
+    791 y
+    769 f
+    727 guetzli
+    718 c
+    708 i
+    672 jpg
+    654 a
+    647 size
+    615 for
+    596 d
+    550 in
+    516 std
+    481 block
+    445 row
+    436 b
+(...)
+```
+
 Instrukcje do zajec (grep)](https://www.digitalocean.com/community/tutorials/using-grep-regular-expressions-to-search-for-text-patterns-in-linux)
 
 [Instrukcje do zajec (awk)](http://www.zsk.iiar.pwr.wroc.pl/zsk/repository/dydaktyka/so/instrukcje/awk1.pdf)
